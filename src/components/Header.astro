@@ -1,0 +1,18 @@
+---
+import HeaderLink from './HeaderLink.astro';
+//import { SITE_TITLE } from '../consts'; no se para que se utilia aun Richard Transmix
+---
+
+<header>
+	<h2>
+		<!--{SITE_TITLE} Al parecer es para el titulo del sitio pero aun no se como traerlo o linkiarlo a esta peticion-->
+	</h2>
+	<nav>
+		<HeaderLink href="/">Home</HeaderLink>
+		<HeaderLink href="/blog">Blog</HeaderLink>
+		<HeaderLink href="/about">About</HeaderLink>
+		<HeaderLink href="https://twitter.com/richardtransmix" target="_blank">Twitter</HeaderLink>
+		<HeaderLink href="https://github.com/transmix" target="_blank">GitHub</HeaderLink>
+	</nav>
+</header>
+<style>
